@@ -42,7 +42,7 @@
 /* home icon box */
 #home-icon-btn-box {
   background-color: white;
-  border-radius: 5px;
+  border-radius: 50px;
   width: 40px;
   height: 40px;
 }
@@ -51,7 +51,8 @@
 #home-btn {
   width: 28px;
   height: 28px;
-  border: none;
+  border: 1px solid white;
+  border-radius: 50px;
 }
 
 /* the home icon  */
@@ -482,7 +483,8 @@ p {
 
 /* buttons animations */
 .shadow {
-  box-shadow: 2px 2px 5px rgb(165, 163, 163);
+  /* box-shadow: 2px 2px 5px rgb(165, 163, 163); */
+  filter: drop-shadow(2px 2px 5px rgb(165, 163, 163));
   cursor: pointer;
-  transition: 300ms;
+  transition: 200ms;
 }
