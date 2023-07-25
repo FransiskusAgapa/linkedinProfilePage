@@ -133,7 +133,7 @@
 .content-box {
   display: flex;
   justify-content: space-between;
-  border: 2px solid blue;
+  border: 1px solid rgb(219, 218, 218);
   height: 800px;
   margin-top: 10px;
   margin-left: 120px;
@@ -147,7 +147,7 @@
 
 /* profile box */
 #profile-box {
-  border: 2px solid red;
+  border: 1px solid rgb(219, 218, 218);
   margin-bottom: 10px;
   height: 500px;
   background-color: white;
@@ -356,7 +356,7 @@ p {
 
 /* big resource box */
 .resource-box {
-  border: 2px solid red;
+  border: 2px solid rgb(219, 218, 218);
   background-color: white;
   height: 282px;
 }
@@ -368,6 +368,20 @@ p {
   margin-left: 20px;
 }
 
+/* paragraph in inner resource box */
+#resource-text {
+  background-color: white;
+}
+
+/* box for 'resources; */
+#source-box {
+  background-color: white;
+  border: 1px solid rgb(219, 218, 218);
+  margin-top: 10px;
+  border-left: none;
+  border-right: none;
+}
+
 /* box for eye icon and text */
 .eye-icon-text-box {
   display: flex;
@@ -377,13 +391,88 @@ p {
 
 /* box for eye icon */
 #eye-icon {
-  /* style here */
+  background-color: white;
+}
+
+/*  eye text  box */
+#eye-text {
+  background-color: white;
 }
 
 /* eye icon */
 #eye {
   width: 17px;
   height: 18px;
+  background-color: white;
+}
+
+/* box for tower cion and creator mode text */
+.creator-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: white;
+  margin-top: 20px;
+  height: 40px;
+  width: 744px;
+  border: 1px solid rgb(219, 218, 218);
+  border-left: none;
+  border-right: none;
+}
+
+/* box for 'creator mode' */
+#creator-mode-box {
+  background-color: white;
+}
+
+/* tower icon */
+#tower-icon {
+  width: 30px;
+  height: 37px;
+  background-color: white;
+}
+
+/* box for network */
+.network-box {
+  background-color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 30px;
+  border: 1px solid rgb(219, 218, 218);
+  height: 80px;
+  width: 744px;
+  border-left: none;
+  border-right: none;
+}
+
+/* my network icon */
+#network-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 1px;
+}
+
+/* show 5 resources box */
+.show-resources-box {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  align-items: center;
+  height: 26px;
+  width: 744px;
+  margin-top: 18px;
+  border: 1px solid rgb(219, 218, 218);
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
+
+/* arrow to the right icon */
+#arrow-right {
+  width: 13px;
+  height: 11px;
+  margin-left: 4px;
 }
 
 .right-box {
