@@ -476,9 +476,73 @@ p {
   margin-left: 4px;
 }
 
+/* the right section of the content */
 .right-box {
   border: 2px solid red;
-  width: 300px;
+  width: 450px;
+}
+
+/* box for 'profile language n profile public' */
+.profile-language-public-box {
+  border: 2px solid red;
+  height: 160px;
+  background-color: white;
+}
+
+/* box for 'profile language' */
+#profile-language-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  height: 80px;
+  margin-left: 10px;
+}
+
+/* box for 'profile language text' */
+#profile-lang-text-box {
+  background-color: white;
+}
+
+/* text 'profile language' */
+#profile-lang-text {
+  background-color: white;
+}
+
+/* option to choose language */
+#language-opt {
+  background-color: white;
+}
+
+/* box for setting 'pencil' icon */
+#profile-lang-set-icon,
+#profile-public-icon {
+  background-color: white;
+}
+
+/* setting 'pencil' icon */
+.set-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 5px;
+  background-color: white;
+}
+
+/* box for 'public profile' */
+.profile-public-box {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10px;
+  height: 80px;
+}
+
+/* text 'public profile & URL */
+#profile-pub-text-box,
+#profile-pub-text {
+  background-color: white;
 }
 
 /* buttons animations */
