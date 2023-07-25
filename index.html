@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>LinkedInProfile</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="main-menu-box">
+      <div
+        id="linkedin-icon-box"
+        onmouseover="addShadow(this)"
+        onmouseout="removeShadow(this)"
+        onclick="alert('This is LinkedIn logo!')"
+      >
+        <img
+          id="linkedin-icon"
+          src="./assets/linkedinIcon.png"
+          alt="linkedin icon"
+        />
+      </div>
+      <div id="search-box">
+        <p>
+          <input id="search" type="text" name="search" placeholder="🔍search" />
+        </p>
+      </div>
+      <div
+        id="home-icon-btn-box"
+        onmouseover="addShadow(this)"
+        onmouseout="removeShadow(this)"
+        onclick="alert('You are home!')"
+      >
+        <button id="home-btn">
+          <img id="home-icon" src="./assets/homeIcon.png" alt="home icon" />
+        </button>
+      </div>
+      <div
+        id="network-btn-icon-box"
+        onmouseover="addShadow(this)"
+        onmouseout="removeShadow(this)"
+        onclick="alert('Wider connection, bigger opportunities!')"
+      >
+        <button id="network-btn">
+          <img
+            id="network-icon"
+            src="./assets/networkicon.png"
+            alt="network icon"
+          />
+        </button>
+      </div>
+      <div
+        id="job-btn-icon-box"
+        onmouseover="addShadow(this)"
+        onmouseout="removeShadow(this)"
+        onclick="alert('Job opportunities are everywhere!')"
+      >
+        <button id="job-btn">
+          <img id="job-icon" src="./assets/jobIcon.png" alt="job icon" />
+        </button>
+      </div>
+      <div
+        id="message-btn-icon-box"
+        onmouseover="addShadow(this)"
+        onmouseout="removeShadow(this)"
+        onclick="alert('Message your connection to stay in touch!')"
+      >
+        <button id="message-btn">
+          <img
+            id="message-icon"
+            src="./assets/mssageIcon.png"
+            alt="message icon"
+          />
+        </button>
+      </div>
+      <div
+        id="notify-btn-icon-box"
+        onmouseover="addShadow(this)"
+        onmouseout="removeShadow(this)"
+        onclick="alert('Notification to remind you of new things around!')"
+      >
+        <button id="notify-btn">
+          <img
+            id="notify-icon"
+            src="./assets/notifyIcon.png"
+            alt="notification icon"
+          />
+        </button>
+      </div>
+    </div>
+    <div class="content-box">
+      <div class="left-box">
+        <div id="profile-box">
+          <div id="main-back-photo-box">
+            <img
+              id="main-photo"
+              src="./assets/mainPhoto2.gif"
+              alt="animated person"
+            />
+            <img id="back-photo" src="./assets/backphoto.gif" alt="waves" />
+          </div>
+          <div id="user-name-school-box">
+            <div id="user-name-box">
+              <div class="name-pronoun-box">
+                <div id="name-box">
+                  <h2>Fransiskus Agapa</h2>
+                </div>
+                <div id="pronoun-box">
+                  <p>(He/Him)</p>
+                </div>
+              </div>
+              <div class="major-state-box">
+                <p id="major">
+                  Computer Science Student at Seattle Pacific University
+                </p>
+                <p id="state">
+                  Seattle Washington, United States.
+                  <span style="color: blue; font-weight: bold; font-size: small;"
+                    >Contact Info</span
+                  >
+                <div class="follower-connection-box">
+                  <div id="follower-box">
+                    <p><span style="color: blue; font-weight: bold; font-size: small;">99 Follower</span></p>
+                  
+                  </div>
+                  <div id="connection-box">
+                    <p><span style="color:blue; font-weight: bold; font-size: small;">88 connections</span></p>
+                  </div>
+                </div>
+                </p>
+              </div>
+            </div>
+            <div id="user-school-box">
+              <img id="school-logo" src="./assets/schoolLogo.png" alt="school logo"/>
+              <p id="school-name">Seattle Pacific University</p>
+            </div>
+          </div>
+          <div class="open-add-more-box">
+            <button id="open-to-btn">Open to</button>
+            <button id="add-profile-btn">Add profile section</button>
+            <button id="more-btn">More</button>
+          </div>
+          <div class="open-to-work-box">
+            <div id="open-to-text-box">
+            <p>Open to work</p>
+            <p>Software Engineer, Web Developer, Web Designer and Frontend Web Developer roles</p>
+            <p><span style="color:blue; background-color: lightblue;">Show details</span></p>
+          </div>
+          <div id="open-to-edit-icon-box">
+            <img id="open-to-edit-icon" src="./assets/pencilIcon.jpg" alt="pencil icon"/>
+          </div>
+          </div>
+        </div>
+        <div class="resource-box">
+          <div class="inner-resource-box">
+            <div id="source-box">
+              <h3 id="resource-text">Resources</h3>
+              <div class="eye-icon-text-box">
+                <div id="eye-icon">
+                  <img id="eye" src="./assets/eyeicon.jpg" alt="an eye icon"/>
+                </div>
+                <div id="eye-text">
+                  <p>Private to you</p>
+                </div>
+              </div>
+            </div>
+            <div id="creator-box">Creator</div>
+            <div id="network-box">Network</div>
+      </div>  
+        </div>
+      </div>
+      <div class="right-box">Right box</div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
