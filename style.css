@@ -481,7 +481,6 @@ p {
 
 /* the right section of the content */
 .right-box {
-  border: 2px solid red;
   width: 450px;
 }
 
@@ -640,6 +639,53 @@ p {
   justify-content: flex-start;
   align-items: center;
 }
+
+/* friends' img */
+.friend-box {
+  height: 110px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 1st friend */
+.friend-img {
+  width: 70px;
+  height: 70px;
+  margin-right: 3px;
+  border-radius: 50px;
+}
+
+/* box of 1st friend 'name, role, message btn' */
+.name-role-message {
+  background-color: white;
+  margin-left: 3px;
+}
+
+/* name of 1st friend */
+.name-role-message > h4 {
+  background-color: white;
+}
+
+/* 1st friend 'message' button */
+.message-btn {
+  border: 1px solid lightgray;
+  border-radius: 50px;
+  background-color: white;
+  height: 30px;
+  width: 80px;
+}
+
+/* send icon */
+.send-icon {
+  width: 10px;
+  height: 10px;
+}
+
+/* 2nd friend */
+
+/* 3re friend */
 
 /* buttons animations */
 .shadow {
