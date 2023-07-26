@@ -133,7 +133,7 @@
 /* content box */
 .content-box {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   border: 1px solid rgb(219, 218, 218);
   height: 800px;
   margin-top: 10px;
@@ -144,6 +144,7 @@
 /* box for profile and resource */
 .left-box {
   width: 750px;
+  margin-right: 10px;
 }
 
 /* profile box */
@@ -482,6 +483,7 @@ p {
 /* the right section of the content */
 .right-box {
   width: 450px;
+  margin-left: 10px;
 }
 
 /* box for 'profile language n profile public' */
