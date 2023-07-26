@@ -649,7 +649,7 @@ p {
   align-items: center;
 }
 
-/* 1st friend */
+/* friend profile/img */
 .friend-img {
   width: 70px;
   height: 70px;
@@ -657,18 +657,18 @@ p {
   border-radius: 50px;
 }
 
-/* box of 1st friend 'name, role, message btn' */
+/* box of friends' 'name, role, message btn' */
 .name-role-message {
   background-color: white;
   margin-left: 3px;
 }
 
-/* name of 1st friend */
+/* name of friends */
 .name-role-message > h4 {
   background-color: white;
 }
 
-/* 1st friend 'message' button */
+/*  friends' 'message' button */
 .message-btn {
   border: 1px solid lightgray;
   border-radius: 50px;
@@ -682,10 +682,6 @@ p {
   width: 10px;
   height: 10px;
 }
-
-/* 2nd friend */
-
-/* 3re friend */
 
 /* buttons animations */
 .shadow {
