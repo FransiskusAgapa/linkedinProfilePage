@@ -487,7 +487,7 @@ p {
 
 /* box for 'profile language n profile public' */
 .profile-language-public-box {
-  border: 2px solid red;
+  border-radius: 10px;
   height: 160px;
   background-color: white;
 }
@@ -546,14 +546,6 @@ p {
 #profile-pub-text-box,
 #profile-pub-text {
   background-color: white;
-}
-
-/* buttons animations */
-.shadow {
-  /* box-shadow: 2px 2px 5px rgb(165, 163, 163); */
-  filter: drop-shadow(2px 2px 5px rgb(165, 163, 163));
-  cursor: pointer;
-  transition: 200ms;
 }
 
 /* Whole advertisement box */
@@ -628,4 +620,31 @@ p {
   border: 2px solid blue;
   height: 30px;
   width: 50px;
+}
+
+/* box for friends */
+.friends-box {
+  background-color: white;
+  height: 385px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+/* text description in friend box */
+#descrb-text {
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: white;
+  height: 45px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* buttons animations */
+.shadow {
+  /* box-shadow: 2px 2px 5px rgb(165, 163, 163); */
+  filter: drop-shadow(2px 2px 5px rgb(165, 163, 163));
+  cursor: pointer;
+  transition: 200ms;
 }
