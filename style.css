@@ -381,6 +381,7 @@ p {
   margin-top: 10px;
   border-left: none;
   border-right: none;
+  margin-left: 20px;
 }
 
 /* box for eye icon and text */
@@ -415,10 +416,11 @@ p {
   background-color: white;
   margin-top: 20px;
   height: 40px;
-  width: 744px;
+  width: 730px;
   border: 1px solid rgb(219, 218, 218);
   border-left: none;
   border-right: none;
+  margin-left: 10px;
 }
 
 /* box for 'creator mode' */
@@ -440,9 +442,10 @@ p {
   justify-content: flex-start;
   align-items: center;
   margin-top: 30px;
+  margin-left: 10px;
   border: 1px solid rgb(219, 218, 218);
   height: 80px;
-  width: 744px;
+  width: 730px;
   border-left: none;
   border-right: none;
 }
@@ -551,4 +554,78 @@ p {
   filter: drop-shadow(2px 2px 5px rgb(165, 163, 163));
   cursor: pointer;
   transition: 200ms;
+}
+
+/* Whole advertisement box */
+.advertisement-box {
+  background-color: white;
+  height: 230px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+/* box for 'ad ...' */
+#ad-triple-dot-box {
+  display: flex;
+  justify-content: flex-end;
+
+  background-color: white;
+}
+
+/* box for 'visit the company page ... ' */
+#ad-text-icons-box {
+  background-color: white;
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+/* user image and advertisement img */
+#icons-user-ads {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+/* user image */
+#user-icon {
+  width: 85px;
+  height: 100px;
+  background-color: white;
+  margin-right: 5px;
+  border-radius: 10px;
+}
+
+/* advertisement img */
+#ad-icon {
+  margin-left: 5px;
+  border-radius: 10px;
+}
+
+/* text "tips for becoming .... */
+#ad-description-box {
+  background-color: white;
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+/* box for follow button */
+.follow-btn-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+/* follow button */
+#follow-btn {
+  background-color: white;
+  margin-top: 15px;
+  margin-left: 10px;
+  border-radius: 20%;
+  border: 2px solid blue;
+  height: 30px;
+  width: 50px;
 }
