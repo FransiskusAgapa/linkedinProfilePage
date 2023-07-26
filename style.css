@@ -497,6 +497,7 @@ p {
   justify-content: space-between;
   align-items: center;
   background-color: white;
+  border-radius: 10px;
   height: 80px;
   margin-left: 10px;
 }
@@ -504,6 +505,7 @@ p {
 /* box for 'profile language text' */
 #profile-lang-text-box {
   background-color: white;
+  border-radius: 10px;
 }
 
 /* text 'profile language' */
@@ -514,6 +516,11 @@ p {
 /* option to choose language */
 #language-opt {
   background-color: white;
+}
+
+/* horizontal line */
+#horz-line {
+  border: 1px solid rgb(219, 218, 218);
 }
 
 /* box for setting 'pencil' icon */
