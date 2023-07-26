@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   background-color: rgb(219, 218, 218);
+  scroll-behavior: smooth;
 }
 
 #main-menu-box {
@@ -690,6 +691,52 @@ p {
 .send-icon {
   width: 10px;
   height: 10px;
+}
+
+/* box for 'cookie policy' */
+.cookie-policy-box {
+  position: fixed;
+  top: 40%;
+  height: 200px;
+  width: 100%;
+  border: 1px solid lightgrey;
+  background-color: white;
+}
+
+/* text 'cookie policy' */
+.cookie-policy-box > h2 {
+  display: flex;
+  justify-content: center;
+}
+
+/* box for cookie text */
+.cookie-text-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+/* box for 'accept' button */
+.accept-btn-box {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  border-radius: 10px;
+}
+
+/* accept button */
+#accept-btn {
+  width: 80px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+/* list of text in 'cookie' box */
+#cookie-list > li {
+  background-color: white;
 }
 
 /* buttons animations */

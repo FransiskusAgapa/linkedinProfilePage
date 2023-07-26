@@ -5,6 +5,34 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
+    <div
+      class="cookie-policy-box"
+      onmouseover="addShadow(this)"
+      onmouseout="removeShadow(this)"
+    >
+      <h2>Coookie Policy!</h2>
+      <div class="cookie-text-box">
+        <div id="inner-cookie-text-box">
+          <p id="cookie-text">Try click these buttons</p>
+          <ul id="cookie-list">
+            <li>
+              All the buttons on the navigation bar (the box where LinkedIn is)
+            </li>
+            <li>Profile photo (dancing man)</li>
+          </ul>
+        </div>
+      </div>
+      <div class="accept-btn-box">
+        <button
+          id="accept-btn"
+          onmouseover="addShadow(this)"
+          onmouseout="removeShadow(this)"
+          onclick="removeMe()"
+        >
+          Ok
+        </button>
+      </div>
+    </div>
     <div id="main-menu-box">
       <div
         id="linkedin-icon-box"
@@ -86,6 +114,7 @@
         </button>
       </div>
     </div>
+
     <div class="content-box">
       <div class="left-box">
         <div id="profile-box">
@@ -93,7 +122,10 @@
             <img
               id="main-photo"
               src="./assets/mainPhoto2.gif"
-              alt="animated person"
+              alt="animated person dancing"
+              onmouseover="addShadow(this)"
+              onmouseout="removeShadow(this)"
+              onclick="alert('I Love Dancing!')"
             />
             <img id="back-photo" src="./assets/backphoto.gif" alt="waves" />
           </div>
@@ -148,9 +180,27 @@
             </div>
           </div>
           <div class="open-add-more-box">
-            <button id="open-to-btn">Open to</button>
-            <button id="add-profile-btn">Add profile section</button>
-            <button id="more-btn">More</button>
+            <button
+              id="open-to-btn"
+              onmouseover="addShadow(this)"
+              onmouseout="removeShadow(this)"
+            >
+              Open to
+            </button>
+            <button
+              id="add-profile-btn"
+              onmouseover="addShadow(this)"
+              onmouseout="removeShadow(this)"
+            >
+              Add profile section
+            </button>
+            <button
+              id="more-btn"
+              onmouseover="addShadow(this)"
+              onmouseout="removeShadow(this)"
+            >
+              More
+            </button>
           </div>
           <div class="open-to-work-box">
             <div id="open-to-text-box">
@@ -358,6 +408,9 @@
         </div>
       </div>
     </div>
+    <!-- <div class="cookie-policy-box">
+      <h2>Coookie Policy!</h2>
+    </div> -->
     <script src="./script.js"></script>
   </body>
 </html>
